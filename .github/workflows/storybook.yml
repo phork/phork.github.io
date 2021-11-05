@@ -29,3 +29,7 @@ jobs:
         with:
           branch: master
           folder: build/storybook
+          clean: true
+          clean-exclude: |
+            .github
+            README.md
